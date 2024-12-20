@@ -1,0 +1,28 @@
+.crud-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around; /* Alinea los botones con espacio entre ellos */
+    margin: 20px 0; /* Espacio arriba y abajo de los botones */
+}
+.crud-buttons button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+}
+.button-disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.button-enabled {
+    background-color: #007bff;
+}
+.hidden {
+    display: none;
+}
+.crud-buttons button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el cursor */
+}

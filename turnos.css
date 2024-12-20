@@ -1,0 +1,76 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+body {
+    background: linear-gradient(rgba(33, 66, 39, 0.486), rgba(33, 66, 39, 0.486)), url(img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-left: 5%;
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+/* Estilos para los botones */
+.boton-reservar, .boton-limpiar {
+    margin: auto;
+    margin-top: 30px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.boton-reservar {
+    background-color: #07ac96;
+}
+
+.boton-reservar:hover {
+    background-color: #069c7f;
+}
+
+.boton-limpiar {
+    background-color: #f44336;
+}
+
+.boton-limpiar:hover {
+    background-color: #d32f2f;
+}
+
+input {
+    width: 20%;
+    height: auto;
+}
+
+.burbuja-mensaje {
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #f1c40f;
+    color: #333;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    font-size: 22px;
+    max-width: 250px;
+    z-index: 1000; /* Asegura que la burbuja esté por encima de otros elementos */
+}
